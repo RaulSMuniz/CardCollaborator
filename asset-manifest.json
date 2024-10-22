@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CardCollaborator/static/css/main.d349f9fe.css",
-    "main.js": "/CardCollaborator/static/js/main.1041f280.js",
+    "main.js": "/CardCollaborator/static/js/main.f0924ae9.js",
     "index.html": "/CardCollaborator/index.html",
     "main.d349f9fe.css.map": "/CardCollaborator/static/css/main.d349f9fe.css.map",
-    "main.1041f280.js.map": "/CardCollaborator/static/js/main.1041f280.js.map"
+    "main.f0924ae9.js.map": "/CardCollaborator/static/js/main.f0924ae9.js.map"
   },
   "entrypoints": [
     "static/css/main.d349f9fe.css",
-    "static/js/main.1041f280.js"
+    "static/js/main.f0924ae9.js"
   ]
 }

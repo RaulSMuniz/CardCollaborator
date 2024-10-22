@@ -2,7 +2,10 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <img src="imagens/banner.png" alt="Banner da organo."></img>
+        <div className="banner">
+            <img src="./imagens/banner.png" alt="Banner da organo."></img>
+        </div>
+        
     )
 }
 
