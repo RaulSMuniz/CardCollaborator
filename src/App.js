@@ -14,8 +14,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Form aoColaboradorCadastrado={colaborador => aoColaboradorAdicionado(colaborador)}
-      />
+      <Form aoColaboradorCadastrado={colaborador => aoColaboradorAdicionado(colaborador)}/>
     </div>
   );
 }

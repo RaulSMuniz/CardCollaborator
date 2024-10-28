@@ -61,9 +61,7 @@ const Form = (props) => {
                     valor={equipe}
                     onChanges={valor => setEquipe(valor)}
                 />
-                <Button>
-                    Criar Card
-                </Button>
+                <Button>Criar Card</Button>
             </form>
         </section>
     );
