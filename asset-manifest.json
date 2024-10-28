@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CardCollaborator/static/css/main.43ddc038.css",
+    "main.js": "/CardCollaborator/static/js/main.996ff28b.js",
+    "index.html": "/CardCollaborator/index.html",
+    "main.43ddc038.css.map": "/CardCollaborator/static/css/main.43ddc038.css.map",
+    "main.996ff28b.js.map": "/CardCollaborator/static/js/main.996ff28b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ddc038.css",
+    "static/js/main.996ff28b.js"
+  ]
+}
