@@ -5,16 +5,6 @@ import TextField from '../textfield/TextField';
 import './Form.css'
 
 const Form = (props) => {
-
-    const times = ['Programação',
-        'Front-End',
-        'Data Science',
-        'Devops',
-        'UX e Design',
-        'Mobile',
-        'Inovação e Gestão'
-    ]
-
     const [nome, setNome] = useState('');
     const [cargo, setCargo] = useState('');
     const [imagem, setImagem] = useState('');
@@ -28,7 +18,10 @@ const Form = (props) => {
             imagem,
             equipe
         });
-
+        setNome('');
+        setCargo('');
+        setEquipe('');
+        setImagem('');
     };
 
     return (
@@ -55,9 +48,9 @@ const Form = (props) => {
                     valor={imagem}
                     onChanges={valor => setImagem(valor)} />
                 <List
-                    obrigatorio={true}
+                    notnull={true}
                     label="Equipe"
-                    itens={times}
+                    itens={props.times}
                     valor={equipe}
                     onChanges={valor => setEquipe(valor)}
                 />
