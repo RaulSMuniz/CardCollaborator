@@ -31,20 +31,20 @@ const Form = (props) => {
                 <TextField
                     notnull={true}
                     label="Nome"
-                    placeholder="Digite o nome do seu colaborador."
+                    placeholder="Digite o nome do seu colaborador"
                     valor={nome}
                     onChanges={valor => setNome(valor)} />
                 <TextField
                     notnull={true}
                     label="Cargo"
-                    placeholder="Digite o cargo do seu colaborador."
+                    placeholder="Digite o cargo do seu colaborador"
                     valor={cargo}
                     onChanges={valor => setCargo(valor)}
                 />
                 <TextField
                     notnull={true}
                     label="Imagem"
-                    placeholder="Digite o endereço da imagem."
+                    placeholder="Digite o endereço da imagem"
                     valor={imagem}
                     onChanges={valor => setImagem(valor)} />
                 <List

@@ -11,6 +11,8 @@ const Team = (props) => {
             <h3 style={ borderColor }> {props.name} </h3>
             <div className="collaborators">
                 {props.colaboradores.map(colaborador => <Collaborator 
+                key={colaborador.nome}
+                primaryColor={props.primaryColor}
                 name={colaborador.nome} 
                 cargo={colaborador.cargo}
                 image={colaborador.imagem} />)}

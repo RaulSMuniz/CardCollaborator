@@ -17,3 +17,10 @@
     padding: 24px;
     box-sizing: border-box;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .text-field input {
+        font-size: 18px;
+        padding: 18px;
+    }
+}

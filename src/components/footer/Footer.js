@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <section className="footer">
+        <section className="rodape">
             <div className="icons">
                 <img src='./imagens/fb.png' alt='Icon' />
                 <img src='./imagens/tw.png' alt='Icon' />
