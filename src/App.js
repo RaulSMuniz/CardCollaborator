@@ -53,15 +53,15 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Form times={times.map(time => time.name)} aoColaboradorCadastrado={colaborador => aoColaboradorAdicionado(colaborador)}/>
-      
-      {times.map(time => <Team 
-      key={time.name} 
-      name={time.name}
-      primaryColor={time.primaryColor} 
-      secondaryColor={time.secondaryColor}
-      colaboradores={colaboradores.filter(colaborador => colaborador.equipe === time.name)}/>)}
-      
+      <Form times={times.map(time => time.name)} aoColaboradorCadastrado={colaborador => aoColaboradorAdicionado(colaborador)} />
+
+      {times.map(time => <Team
+        key={time.name}
+        name={time.name}
+        primaryColor={time.primaryColor}
+        secondaryColor={time.secondaryColor}
+        colaboradores={colaboradores.filter(colaborador => colaborador.equipe === time.name)} />)}
+
       <Footer />
     </div>
   );

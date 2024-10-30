@@ -19,3 +19,6 @@
 - Importação e utilização de useState();
 - Manipulação de arrays de objetos, além da filtragem de um array;
 - Depuração de código através do 'debugger';
+
+- A maior dificuldade que tive, por mais surpreendente que seja, não foi em relação ao código ou aprendizados sobre o React em si, mas com o deploy da aplicação. Por fugir do usual de projetos JavaScript, tive que me adaptar e entender que primeiro o 'npm run build' deveria ser utilizado no terminal para que a aplicação pudesse ser entendida pelo GitHub ou outras plataformas que venham a interpretar o projeto.
+- Esse projeto me trouxe um grande aprendizado no geral, pois pude consolidar algumas lógicas de programação e sintaxes do JavaScript como '.map', pois antes seu funcionamento não era tão claro para mim. Eu acredito que estou bem mais preparado para seguir meus estudos na área de desenvolvimento Front-End.

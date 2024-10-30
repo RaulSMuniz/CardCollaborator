@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="banner">
             <img src="./imagens/banner.png" alt="Banner da Organo."></img>
         </div>
-        
+
     );
 };
 
